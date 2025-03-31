@@ -2,6 +2,9 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+button {
+  @apply cursor-pointer hover:cursor-pointer;
+}
 
 @theme inline {
   --color-background: var(--background);
