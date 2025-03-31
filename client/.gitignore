@@ -12,6 +12,8 @@
 
 # testing
 /coverage
+#ignore all dist folders
+**/dist/
 
 # next.js
 /.next/

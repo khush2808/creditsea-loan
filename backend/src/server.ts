@@ -16,6 +16,7 @@ import loanRoutes from "./routes/loanRoutes";
 dotenv.config();
 
 const app = express();
+app.options('*', cors()); 
 
 // Middleware
 app.use(cors());
